@@ -1,0 +1,24 @@
+{
+  "name": "megatutor",
+  "version": "1.0.0",
+  "description": "The goal of this project is to create a web application that allows students or their parents to find and hire a personal tutor based on the tutor's location, availability, qualifications, and experience.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Zibran Zarif Amio",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "firebase": "^10.11.1",
+    "stripe": "^15.7.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
